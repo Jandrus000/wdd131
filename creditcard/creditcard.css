@@ -1,0 +1,141 @@
+
+/* GENERAL RULES */
+body{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+input{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 35px;
+    font-size: 15px;
+}
+
+p{
+    margin: 0;
+}
+
+fieldset{
+    background-color: rgb(237, 237, 237);
+    border: none;
+    border-radius: 12px;
+}
+
+button{
+    font-size: 15px;
+    padding: 8px 18px 8px 18px;
+    border-radius: 5px;
+    grid-row: 4/5;
+    grid-column: 3/4;
+}
+
+/* form grid */
+
+#form-grid{
+    display: grid;
+    grid-template-columns: 95px 290px 95px;
+    grid-template-rows: 30px 200px 30px auto;
+    height: fit-content;
+    width: fit-content;
+    gap: 15px;
+}
+
+/* back card */
+#back-card{
+    height: 245px;
+    width: 400px;
+    box-sizing: border-box;
+    padding: 20px 0px 20px 0px;
+    grid-row: 2/4;
+    grid-column: 2/4;
+}
+
+/* Front Card rules */
+
+#front-card{
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.395);
+    max-width: 350px;
+    /* max-height: 350px; */
+    padding: 25px;
+    z-index: 10;
+    grid-row: 1/3;
+    grid-column: 1/3;
+}
+
+/* front card internal grid */
+#front-card-grid{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 2fr 1fr;
+    gap: 15px;
+}
+
+#total {
+    grid-column: 1 / 3; 
+    grid-row: 1 / 2;  
+    justify-self: start;
+    align-self: center;
+}
+
+#card-logo {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    justify-self: end;
+}
+
+
+#card-num-section {
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+
+#card-holder-section{
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+#exp-date-section{
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+#card-holder, #card-num{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#exp-date-section > input{
+    max-width: 49px;
+    box-sizing: border-box;
+}
+
+
+
+/* back card grid */
+#back-card-grid{
+    display: grid;
+    height: 100%;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 3fr 1fr;
+}
+
+#gray-bar{
+    background-color: rgb(82, 82, 82);
+    width: 100%;
+    height: 40px;
+    grid-row: 1/2;
+    grid-column: 1/3
+}
+
+#security{
+    box-sizing: border-box;
+    width: 74px;
+}
+
+#security-block{
+    grid-column: 2/3;
+    align-self:last baseline;
+    justify-self: start;
+    padding-bottom: 20px;
+}
+

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Credit Card</title>
+        <meta
+            name="description"
+            content="This web page is an effort to practice html, css, and 
+        javascript to create a mock website for submitting credit card
+        information into a form."
+        />
+        <meta name="author" content="Jaron Andrus" />
+        <link rel="stylesheet" href="creditcard.css" />
+        <link rel="icon" href="favicon.png" type="image/png" />
+    </head>
+    <body>
+        <form>
+            <div id="form-grid">
+                <fieldset id="front-card">
+                    <div id="front-card-grid">
+                        <p id="total">TOTAL: <span>$199</span></p>
+                        <img
+                            id="card-logo"
+                            class="card-image"
+                            src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/
+                            PjxzdmcgZGF0YS1uYW1lPSJMYXllciAxIiBpZD0iTGF5ZXJfMSIgdml
+                            ld0JveD0iMCAwIDYwIDYwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmc
+                            vMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8
+                            xOTk5L3hsaW5rIj48ZGVmcz48c3R5bGU+LmNscy0xLC5jbHMtMTAsLmNs
+                            cy0xMSwuY2xzLTIsLmNscy02LC5jbHMtN3tmaWxsOm5vbmU7fS5jbHMtM
+                            XtjbGlwLXJ1bGU6ZXZlbm9kZDt9LmNscy0yLC5jbHMtNXtmaWxsLXJ1bG
+                            U6ZXZlbm9kZDt9LmNscy0ze2NsaXAtcGF0aDp1cmwoI2NsaXAtcGF0aCk
+                            7fS5jbHMtNHtjbGlwLXBhdGg6dXJsKCNjbGlwLXBhdGgtMik7fS5jbHMt
+                            NXtmaWxsOiNmZTg2NTc7fS5jbHMtMTAsLmNscy0xMSwuY2xzLTZ7c3Ryb
+                            2tlOiNmZTg2NTc7fS5jbHMtMTAsLmNscy02e3N0cm9rZS1saW5lY2FwOn
+                            JvdW5kO30uY2xzLTEwLC5jbHMtMTEsLmNscy02LC5jbHMtN3tzdHJva2U
+                            tbGluZWpvaW46cm91bmQ7fS5jbHMtNntzdHJva2Utd2lkdGg6NHB4O30uY
+                            2xzLTd7c3Ryb2tlOiNlMDZjM2U7fS5jbHMtMTEsLmNscy03e3N0cm9rZS1
+                            saW5lY2FwOnNxdWFyZTt9LmNscy0xMCwuY2xzLTExLC5jbHMtN3tzdHJva2
+                            Utd2lkdGg6MnB4O30uY2xzLTh7Y2xpcC1wYXRoOnVybCgjY2xpcC1wYXRoL
+                            TQpO30uY2xzLTl7ZmlsbDojZmZkYzgyO308L3N0eWxlPjxjbGlwUGF0aCBpZ
+                            D0iY2xpcC1wYXRoIj48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik0xLDQ2VjE4Y
+                            TUsNSwwLDAsMSw1LTVINTRhNSw1LDAsMCwxLDUsNVY0NmE1LDUsMCwwLDEtN
+                            Sw1SDZBNSw1LDAsMCwxLDEsNDZabTIsMGEzLDMsMCwwLDAsMywzSDU0YTMsM
+                            ywwLDAsMCwzLTNWMThhMywzLDAsMCwwLTMtM0g2YTMsMywwLDAsMC0zLDNWND
+                            ZaTS0xOSw3MUg3OVYtN0gtMTlWNzFaIi8+PC9jbGlwUGF0aD48Y2xpcFBhdGg
+                            gaWQ9ImNsaXAtcGF0aC0yIj48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik0yLDQ2
+                            YTQsNCwwLDAsMCw0LDRINTRhNCw0LDAsMCwwLDQtNFYxOGE0LDQsMCwwLDAt
+                            NC00SDZhNCw0LDAsMCwwLTQsNFY0NloiLz48L2NsaXBQYXRoPjxjbGlwUGF0
+                            aCBpZD0iY2xpcC1wYXRoLTQiPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTks
+                            MjlhMiwyLDAsMCwwLDIsMkgyMmEyLDIsMCwwLDAsMi0yVjIzYTIsMiwwLDAs
+                            MC0yLTJIMTFhMiwyLDAsMCwwLTIsMnY2WiIvPjwvY2xpcFBhdGg+PC9kZWZz
+                            Pjx0aXRsZS8+PGcgY2xhc3M9ImNscy0zIj48ZyBjbGFzcz0iY2xzLTQiPjxw
+                            YXRoIGNsYXNzPSJjbHMtNSIgZD0iTTIsNDZhNCw0LDAsMCwwLDQsNEg1NGE0
+                            LDQsMCwwLDAsNC00VjE4YTQsNCwwLDAsMC00LTRINmE0LDQsMCwwLDAtNCw0
+                            VjQ2WiIvPjwvZz48L2c+PGcgY2xhc3M9ImNscy00Ij48cGF0aCBjbGFzcz0i
+                            Y2xzLTYiIGQ9Ik0yLDQ2YTQsNCwwLDAsMCw0LDRINTRhNCw0LDAsMCwwLDQt
+                            NFYxOGE0LDQsMCwwLDAtNC00SDZhNCw0LDAsMCwwLTQsNFY0NloiLz48L2c+
+                            PGxpbmUgY2xhc3M9ImNscy03IiB4MT0iOSIgeDI9IjI4IiB5MT0iMzkiIHky
+                            PSIzOSIvPjxsaW5lIGNsYXNzPSJjbHMtNyIgeDE9IjMyIiB4Mj0iNTEiIHkx
+                            PSIzOSIgeTI9IjM5Ii8+PGcgY2xhc3M9ImNscy04Ij48cmVjdCBjbGFzcz0i
+                            Y2xzLTkiIGhlaWdodD0iMjAiIHdpZHRoPSIyNSIgeD0iNCIgeT0iMTYiLz48
+                            L2c+PHBhdGggY2xhc3M9ImNscy0xMCIgZD0iTTksMjlhMiwyLDAsMCwwLDIs
+                            MkgyMmEyLDIsMCwwLDAsMi0yVjIzYTIsMiwwLDAsMC0yLTJIMTFhMiwyLDAs
+                            MCwwLTIsMnY2WiIvPjxsaW5lIGNsYXNzPSJjbHMtMTEiIHgxPSIxOCIgeDI9
+                            IjE4IiB5MT0iMzEiIHkyPSIyMSIvPjxsaW5lIGNsYXNzPSJjbHMtMTEiIHgx
+                            PSI5IiB4Mj0iMTciIHkxPSIyNyIgeTI9IjI3Ii8+PGxpbmUgY2xhc3M9ImNs
+                            cy0xMSIgeDE9IjE4IiB4Mj0iMjQiIHkxPSIyNSIgeTI9IjI1Ii8+PC9zdmc+
+                            "
+                            height="55px"
+                        />
+
+                        <div id="card-num-section">
+                            <label for="card-num"> CARD NUMBER </label>
+                            <br />
+                            <input
+                                type="text"
+                                id="card-num"
+                                name="card-num"
+                                placeholder="1234 5678 9101 1020"
+                                maxlength="19"
+                                minlength="16"
+                                required
+                            />
+                        </div>
+
+                        <div id="card-holder-section">
+                            <label for="card-holder"> CARD HOLDER </label>
+                            <br />
+                            <input
+                                type="text"
+                                id="card-holder"
+                                name="card-holder"
+                                placeholder="John Doe"
+                                maxlength="22"
+                                required
+                            />
+                        </div>
+
+                        <div id="exp-date-section">
+                            <label> EXPIRATION </label>
+                            <br />
+                            <input
+                                type="text"
+                                id="month"
+                                name="month"
+                                minlength="1"
+                                maxlength="2"
+                                placeholder="MM"
+                                required
+                            />
+                            <input
+                                type="text"
+                                id="year"
+                                name="year"
+                                minlength="1"
+                                maxlength="2"
+                                placeholder="YY"
+                                required
+                            />
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset id="back-card">
+                    <div id="back-card-grid">
+                        <div id="gray-bar"></div>
+                        <div id="security-block">
+                            <label for="security"> CVC/CVV </label>
+                            <br />
+                            <input
+                                type="text"
+                                id="security"
+                                name="security"
+                                placeholder="XXX"
+                                minlength="3"
+                                maxlength="3"
+                                required
+                            />
+                        </div>
+                    </div>
+                </fieldset>
+                <button>Submit</button>
+            </div>
+        </form>
+    </body>
+</html>
