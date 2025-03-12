@@ -88,5 +88,5 @@ function searchHandler(){
 
 init();
 
-const searchButton = document.getElementById('searchbar');
+const searchButton = document.querySelector('#searchbar>button');
 searchButton.addEventListener('click', searchHandler)
